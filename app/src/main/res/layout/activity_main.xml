@@ -15,42 +15,54 @@
         android:id="@+id/title_bin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
         android:text="二进制"/>
     <EditText
         android:id="@+id/Input_Bin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/activity_vertical_margin"
         android:digits="01"
-        android:singleLine="true"
-        android:inputType="number"/>
+        android:inputType="number"
+        android:selectAllOnFocus="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
         android:text="十进制"/>
     <EditText
         android:id="@+id/Input_Dec"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/activity_vertical_margin"
         android:singleLine="true"
-        android:inputType="number"/>
+        android:inputType="number"
+        android:selectAllOnFocus="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
         android:text="十六进制"/>
     <EditText
         android:id="@+id/Input_Hex"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/activity_vertical_margin"
         android:singleLine="true"
-        android:digits="0123456789abcdefABCDEF"/>
+        android:digits="0123456789abcdefABCDEF"
+        android:inputType="number"
+        android:selectAllOnFocus="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
 
 
 
