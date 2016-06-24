@@ -23,6 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/activity_vertical_margin"
         android:digits="01"
+        android:singleLine="true"
         android:inputType="number"/>
 
     <TextView
@@ -35,6 +36,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/activity_vertical_margin"
+        android:singleLine="true"
         android:inputType="number"/>
 
     <TextView
@@ -47,12 +49,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/activity_vertical_margin"
+        android:singleLine="true"
         android:digits="0123456789abcdefABCDEF"/>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="计算"/>
+
 
 </LinearLayout>
